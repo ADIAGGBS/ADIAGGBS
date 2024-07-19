@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+/** SCSS DARK THEME PRIMARY COLORS */
+/** SCSS DARK THEME SURFACE COLORS */
+/** SCSS DARK THEME MIXED SURFACE COLORS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Mukta", sans-serif;
+  transition: shadow 0.1s ease;
+}
+
+body {
+  background: #4c4b4b;
+  color: aliceblue;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 16vh;
+  align-items: center;
+  padding-inline: 5vw;
+}
+
+.nav-links ul {
+  display: flex;
+}
+
+.nav-links ul li {
+  margin-inline: 4px;
+  padding-inline: 12px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  list-style: none;
+  font-size: 1.3rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.nav-links ul li:hover {
+  box-shadow: 2px 2px 2px #9f9994, inset 2px 2px 2px #352b22;
+  color: #ffaf50;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #ff9800;
+}
+
+/*# sourceMappingURL=main.css.map */
