@@ -10,3 +10,20 @@ body{
     background: $surface-300;
     color: aliceblue;
 }
+.btn{
+    width: 10vw;
+    height: 5vh;
+    outline: none;
+    border-radius: 2rem;
+    margin-top: 2px;
+    box-shadow: none;
+    border: none;
+}
+.primary{
+    background-color: $primary-100;
+    color: $surface-mixed-100;
+}
+.secondary{
+    background-color: $primary-400;
+    color: $surface-mixed-200;
+}

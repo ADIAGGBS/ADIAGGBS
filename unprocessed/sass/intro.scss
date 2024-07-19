@@ -1,0 +1,44 @@
+.intro {
+  // background-color: red;
+  height: 84vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-box {
+  display: flex;
+  width: 50vw;
+  border: 1px solid $primary-100;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  gap: 16px;
+}
+
+.image {
+  margin-bottom: -4px;
+}
+
+.image img {
+  border-radius: 50%;
+  border: 5px solid $primary-100;
+  padding: 2px;
+
+}
+.intro-text{
+    span{
+        font-size: large;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .intro-controls{
+        display: flex;
+        justify-content: start;
+        gap: 4px;
+        .btn{
+            font-size: medium;
+        }
+    }
+}
