@@ -8,12 +8,12 @@
 
 .intro-box {
   display: flex;
-  width: 50vw;
-  border: 1px solid $primary-100;
+  width: 55vw;
+  // border: 1px solid $primary-100;
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  gap: 16px;
+  gap: 3vw;
 }
 
 .image {
@@ -27,11 +27,19 @@
 
 }
 .intro-text{
+  text-align: justify;
+    span:nth-child(1){
+      font-size: small;
+    }
     span{
         font-size: large;
     }
     h1{
         font-size: 2rem;
+        margin-block-start:0px;
+        margin-block-end: 0px;
+        color: $primary-100;
+        font-weight: bolder;
     }
     .intro-controls{
         display: flex;
@@ -40,5 +48,17 @@
         .btn{
             font-size: medium;
         }
+    }
+    .intro-links{
+      display: flex;
+      justify-content: start;
+      margin-top: 8px;
+      column-gap: 10px;
+      a{
+        i{
+          font-size: 1.5rem;
+          color: aliceblue;
+        }
+      }
     }
 }

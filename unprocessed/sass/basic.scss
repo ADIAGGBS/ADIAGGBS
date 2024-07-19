@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: "Mukta", sans-serif;
-    transition: shadow 0.1s ease;
+    transition: all 0.1s ease;
 }
 
 body{
@@ -14,10 +14,13 @@ body{
     width: 10vw;
     height: 5vh;
     outline: none;
-    border-radius: 2rem;
+    border-radius: 8px;
     margin-top: 2px;
     box-shadow: none;
     border: none;
+    &:hover{
+        box-shadow: 0px 0px 5px 1px $primary-400;
+    }
 }
 .primary{
     background-color: $primary-100;
