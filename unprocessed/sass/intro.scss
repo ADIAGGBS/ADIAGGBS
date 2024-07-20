@@ -4,17 +4,57 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  .intro-box {
+    display: flex;
+    width: 55vw;
+    // border: 1px solid $primary-100;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 3vw;
+
+    .intro-text{
+      text-align: center;
+        span:nth-child(1){
+          font-size: small;
+        }
+        span{
+            font-size: large;
+        }
+        h1{
+            font-size: 3rem;
+            margin-block-start:0px;
+            margin-block-end: 0px;
+            margin-top: -10px;
+            color: $primary-100;
+            font-weight: bolder;
+        }
+        .intro-controls{
+            display: flex;
+            justify-content: center;
+            gap: 4px;
+            .btn{
+                font-size: medium;
+            }
+        }
+        .intro-links{
+          display: flex;
+          justify-content: center;
+          margin-top: 8px;
+          column-gap: 10px;
+          a{
+            i{
+              font-size: 1.5rem;
+              color: aliceblue;
+            }
+          }
+        }
+    }
+    
+  }
 }
 
-.intro-box {
-  display: flex;
-  width: 55vw;
-  // border: 1px solid $primary-100;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-  gap: 3vw;
-}
+
 
 .image {
   margin-bottom: -4px;
@@ -25,40 +65,4 @@
   border: 5px solid $primary-100;
   padding: 2px;
 
-}
-.intro-text{
-  text-align: justify;
-    span:nth-child(1){
-      font-size: small;
-    }
-    span{
-        font-size: large;
-    }
-    h1{
-        font-size: 2rem;
-        margin-block-start:0px;
-        margin-block-end: 0px;
-        color: $primary-100;
-        font-weight: bolder;
-    }
-    .intro-controls{
-        display: flex;
-        justify-content: start;
-        gap: 4px;
-        .btn{
-            font-size: medium;
-        }
-    }
-    .intro-links{
-      display: flex;
-      justify-content: start;
-      margin-top: 8px;
-      column-gap: 10px;
-      a{
-        i{
-          font-size: 1.5rem;
-          color: aliceblue;
-        }
-      }
-    }
 }
