@@ -156,7 +156,6 @@ body {
 .about-me .about-me-box {
   width: 65vw;
   height: 80vh;
-  border: 1px solid red;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -182,7 +181,7 @@ body {
 .about-me .about-me-box .about-me-info .head-section .experience {
   width: 50%;
   height: 100%;
-  border: 1px solid aliceblue;
+  border: 2px solid #ff9800;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -202,7 +201,7 @@ body {
 .about-me .about-me-box .about-me-info .head-section .education {
   width: 50%;
   height: 100%;
-  border: 1px solid aliceblue;
+  border: 2px solid #ff9800;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -220,8 +219,23 @@ body {
   font-size: large;
 }
 .about-me .about-me-box .about-me-info .info-section {
-  border: 1px solid yellow;
+  padding: 10px;
+  text-align: justify;
   height: 25vh;
+}
+
+.skills {
+  height: 100vh;
+}
+.skills .skills-heading {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.skills .skills-heading h1 {
+  font-size: 3rem;
 }
 
 /*# sourceMappingURL=main.css.map */
