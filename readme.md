@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Avinaba Dutta</h1>
 <h3 align="center">A AWS DEVOPS Developer from INDIA</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=adiaggbs" alt="adiaggbs" /></a> </p>
-
 - 💬 Ask me about **AWS, Python, Lambda, Terraform**
 
 - 📫 How to reach me **duttaavinaba98@gmail.com**
