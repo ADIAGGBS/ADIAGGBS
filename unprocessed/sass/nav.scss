@@ -22,6 +22,10 @@
         box-shadow: 2px 2px 2px $surface-mixed-600, inset 2px 2px 2px $surface-mixed-100;
     color: $primary-300;
     }
+    a{
+        text-decoration: none;
+        color: $primary-100;
+    }
 
 }
 // .nav-links ul li:hover{ 
